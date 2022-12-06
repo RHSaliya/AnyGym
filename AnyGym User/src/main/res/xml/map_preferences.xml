@@ -1,0 +1,12 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <SwitchPreferenceCompat
+        android:id="@+id/dayNightMap"
+        android:layout_width="match_parent"
+        app:icon="@drawable/ic_daynight"
+        app:key="dayNight"
+        app:title="Map night mode" />
+
+</PreferenceScreen>

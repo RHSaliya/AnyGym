@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/myToolbarStats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:elevation="0dp"/>
+    <TextView
+        android:id="@+id/noVisitsTV"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:text="No Visits found"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewActivity"
+        android:layout_width="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/yearTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="2001"
+            android:textColor="@color/white"
+            android:textSize="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/yearTypeSpinner"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:popupElevation="0dp"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="@+id/yearTV"
+            app:layout_constraintStart_toEndOf="@+id/yearTV" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/yearTV"
+            app:layout_constraintTop_toTopOf="parent">
+            <HorizontalScrollView
+                android:id="@+id/monthScrollView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/monthLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:paddingLeft="200dp"
+                    android:paddingRight="200dp"
+                    tools:ignore="HardcodedText">
+
+                    <TextView
+                        android:id="@+id/month1"
+                        style="@style/MonthTVStyle"
+                        android:hint="01"
+                        android:text="Jan" />
+
+                    <TextView
+                        android:id="@+id/month2"
+                        style="@style/MonthTVStyle"
+                        android:hint="02"
+                        android:text="Feb" />
+
+                    <TextView
+                        android:id="@+id/month3"
+                        style="@style/MonthTVStyle"
+                        android:hint="03"
+                        android:text="Mar" />
+
+                    <TextView
+                        android:id="@+id/month4"
+                        style="@style/MonthTVStyle"
+                        android:hint="04"
+                        android:text="Apr" />
+
+                    <TextView
+                        android:id="@+id/month5"
+                        style="@style/MonthTVStyle"
+                        android:hint="05"
+                        android:text="May" />
+
+                    <TextView
+                        android:id="@+id/month6"
+                        style="@style/MonthTVStyle"
+                        android:hint="06"
+                        android:text="Jun" />
+
+                    <TextView
+                        android:id="@+id/month7"
+                        style="@style/MonthTVStyle"
+                        android:hint="07"
+                        android:text="Jul" />
+
+                    <TextView
+                        android:id="@+id/month8"
+                        style="@style/MonthTVStyle"
+                        android:hint="08"
+                        android:text="Aug" />
+
+                    <TextView
+                        android:id="@+id/month9"
+                        style="@style/MonthTVStyle"
+                        android:hint="09"
+                        android:text="Sep" />
+
+                    <TextView
+                        android:id="@+id/month10"
+                        style="@style/MonthTVStyle"
+                        android:hint="10"
+                        android:text="Oct" />
+
+                    <TextView
+                        android:id="@+id/month11"
+                        style="@style/MonthTVStyle"
+                        android:hint="11"
+                        android:text="Nov" />
+
+                    <TextView
+                        android:id="@+id/month12"
+                        style="@style/MonthTVStyle"
+                        android:hint="12"
+                        android:text="Dec" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

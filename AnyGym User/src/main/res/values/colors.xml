@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#E7E7E7</color>
+    <color name="black5">#555555</color>
+    <color name="black4">#444444</color>
+    <color name="darkOrange">#FFBD00</color>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#3A3A3A</color>
+    <color name="colorAccent">#FFC92B</color>
+    <color name="background">#dddddd</color>
+
+    <color name="Star5">#2BC54C</color>
+    <color name="Star4">#8BC34A</color>
+    <color name="Star3">#FFBD00</color>
+    <color name="Star2">#FF7B07</color>
+    <color name="Star1">#F44336</color>
+    <color name="Open">#2BC54C</color>
+    <color name="Close">#aaa</color>
+    <color name="Full">#F44336</color>
+</resources>

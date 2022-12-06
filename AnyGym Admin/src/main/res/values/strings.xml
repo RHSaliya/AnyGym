@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AnyGym\nAdmin</string>
+    <string name="login">Login</string>
+    <string name="Mobile_No">Mobile Number</string>
+    <string name="login_Otp">OTP</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Lines32">\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n</string>
+    <string name="logout">Logout</string>
+    <string name="sevenLines">\n\n\n\n\n\n</string>
+
+
+</resources>

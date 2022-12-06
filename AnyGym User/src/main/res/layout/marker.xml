@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/markerLayout"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:padding="2dp"
+        app:cardCornerRadius="5dp"
+        android:elevation="10dp">
+        <TextView
+            android:id="@+id/markerTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="TextView"
+            android:shadowRadius="5"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:textColor="#f00" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/markerPin"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:src="@drawable/pin" />
+</LinearLayout>

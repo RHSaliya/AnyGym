@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@+id/landmarkEditText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/square_white_gray"
+    android:lines="1"
+    android:padding="10dp"
+    android:textSize="18dp"
+    android:textColor="@color/black4"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

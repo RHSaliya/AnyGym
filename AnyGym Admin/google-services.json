@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "1046639041633",
+    "firebase_url": "https://anygym-7d86d.firebaseio.com",
+    "project_id": "anygym-7d86d",
+    "storage_bucket": "anygym-7d86d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046639041633:android:086f8f93bd28bc47105e20",
+        "android_client_info": {
+          "package_name": "com.project.anygym"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046639041633-5nmat4hoqflppevm42gfrhu5b6581h2h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.anygym",
+            "certificate_hash": "daf426e6233ff0d095c012d5cffc5600ba49fcff"
+          }
+        },
+        {
+          "client_id": "1046639041633-2reh5bscibs8isisedqqfd9eo8cuk5ab.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.anygym",
+            "certificate_hash": "9ffa9f1338c2841406e9b5b2630f5cbbeb2f0e48"
+          }
+        },
+        {
+          "client_id": "1046639041633-999vj8ul3elpja99083hva2pgo6c9vsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcH9mIZzeta3VOkCqd3_8vm09EbjYYOmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046639041633-999vj8ul3elpja99083hva2pgo6c9vsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046639041633:android:d3884faf9a0443f1105e20",
+        "android_client_info": {
+          "package_name": "com.project.anygymadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046639041633-gfvtrnucqfqdcbdbei2k9g4dv5df7q21.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.anygymadmin",
+            "certificate_hash": "9ffa9f1338c2841406e9b5b2630f5cbbeb2f0e48"
+          }
+        },
+        {
+          "client_id": "1046639041633-999vj8ul3elpja99083hva2pgo6c9vsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcH9mIZzeta3VOkCqd3_8vm09EbjYYOmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046639041633-999vj8ul3elpja99083hva2pgo6c9vsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046639041633:android:4b2bb4b436e0cc87105e20",
+        "android_client_info": {
+          "package_name": "com.project.anygymowner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046639041633-i46pu2affbgsafpcmhhnj61d6j783dog.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.anygymowner",
+            "certificate_hash": "9ffa9f1338c2841406e9b5b2630f5cbbeb2f0e48"
+          }
+        },
+        {
+          "client_id": "1046639041633-999vj8ul3elpja99083hva2pgo6c9vsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcH9mIZzeta3VOkCqd3_8vm09EbjYYOmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046639041633-999vj8ul3elpja99083hva2pgo6c9vsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
